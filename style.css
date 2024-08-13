@@ -1,0 +1,16 @@
+.italic {
+    font-style: italic;
+}
+
+:link {
+    color: #596D48;
+    text-decoration: none;
+}
+
+:visited {
+    color:grey;
+}
+
+body {
+    background: lightgrey url(./assets/background.jpg) left/contain no-repeat;
+}
