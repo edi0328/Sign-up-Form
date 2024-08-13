@@ -12,5 +12,22 @@
 }
 
 body {
+    display: flex;
+    align-items: center;
+    height: clamp(20rem, 100vh, 50rem);
+}
+.background {
+    flex: 1 1 0;
+    position: relative;
     background: lightgrey url(./assets/background.jpg) left/contain no-repeat;
+}
+
+.logo {
+    height: 20%;
+    width: 100%;
+    background: rgb(64, 64, 64/ .4);
+}
+
+.signup {
+    flex: 2 1 0;
 }
