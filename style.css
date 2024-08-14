@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "norse";
+    src: url("fonts/norse-bold-webfont.woff2"),
+         url("fonts/norse-bold-webfont.woff");
+}
+
 .italic {
     font-style: italic;
 }
@@ -25,6 +31,10 @@ body {
     flex: 1 1 0;
     position: relative;
     background: url(./assets/background.jpg) left/cover no-repeat;
+}
+
+h1 {
+    font-family: norse;
 }
 
 .credit {
