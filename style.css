@@ -4,6 +4,8 @@
          url("fonts/norse-bold-webfont.woff");
 }
 
+
+
 .italic {
     font-style: italic;
 }
@@ -25,6 +27,7 @@ body {
     display: flex;
     height: clamp(20rem, 100vh, 50rem);
     background-color: #EEEEEE;
+    font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .background {
@@ -57,7 +60,14 @@ h1 {
 
 .signup {
     flex: 2 1 0;
+    align-self: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.intro {
+    flex: auto;
+    font-size: 16px;
+    font-weight:600;
 }
