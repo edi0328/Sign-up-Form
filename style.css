@@ -76,5 +76,19 @@ h1 {
 
 form {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+}
 
+label {
+    display: block;
+    font-size: 10px;
+    color: #BBBBBB;
+}
+
+.telmail,
+.name,
+.pass {
+    display: flex;
+    
 }
