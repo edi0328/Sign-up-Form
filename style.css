@@ -68,8 +68,13 @@ h1 {
 
 .intro {
     flex: auto;
-    font-size: 16px;
+    font-size: 20px;
     font-weight:500;
     width: 80%;
     padding: 0px 24px;
+}
+
+form {
+    width: 100%;
+    background-color: white;
 }
