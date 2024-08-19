@@ -87,7 +87,7 @@ form {
 
 label {
     display: block;
-    font-size: clamp(10px, 0.8rem, 24px);
+    font-size: clamp(10px, 0.7rem, 24px);
     color: #BBBBBB;
 }
 
@@ -99,4 +99,7 @@ label {
     gap: 10%
 }
 
+legend {
+    font-weight: 500;
+}
 
