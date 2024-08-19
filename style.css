@@ -129,3 +129,8 @@ button {
     border: none;
     margin: 24px;
 }
+
+.login {
+    padding: 0 24px;
+    font-size: 0.8rem;
+}
