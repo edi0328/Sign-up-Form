@@ -78,7 +78,7 @@ h1 {
     padding: 0px 24px;
 }
 
-form {
+.form {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -97,6 +97,15 @@ input {
     font-size: 1rem;
 }
 
+input:invalid {
+    border-color: red;
+}
+
+input:focus {
+    outline: none;
+    border-color: blue;
+}
+
 .telmail,
 .name,
 .pass {
@@ -107,12 +116,4 @@ input {
 
 legend {
     font-weight: 500;
-}
-
-input:invalid {
-    border: 1px solid red;
-}
-
-input:focus {
-    border: 1px solid blue;
 }
