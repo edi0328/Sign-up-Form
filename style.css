@@ -91,6 +91,12 @@ label {
     color: #BBBBBB;
 }
 
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
 .telmail,
 .name,
 .pass {
@@ -103,3 +109,10 @@ legend {
     font-weight: 500;
 }
 
+input:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    border: 1px solid blue;
+}
