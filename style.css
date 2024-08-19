@@ -26,12 +26,14 @@
 body {
     display: flex;
     height: clamp(20rem, 100vh, 50rem);
+    width: 100%;
     background-color: #EEEEEE;
     font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .background {
     flex: 1 1 0;
+    min-width: 300px;
     position: relative;
     background: url(./assets/background.jpg) left/cover no-repeat;
 }
@@ -61,6 +63,7 @@ h1 {
 
 .signup {
     flex: 2 1 0;
+    min-width:fit-content;
     align-self: center;
     display: flex;
     flex-direction: column;
@@ -79,6 +82,7 @@ form {
     background-color: white;
     display: flex;
     flex-direction: column;
+    padding: 16px;
 }
 
 label {
@@ -90,11 +94,9 @@ label {
 .telmail,
 .name,
 .pass {
+    padding: 8px;
     display: flex;
-    gap: 10%;
+    gap: 10%
 }
 
-label {
-    display: block;
-}
 
