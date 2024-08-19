@@ -26,13 +26,13 @@
 body {
     display: flex;
     height: clamp(20rem, 100vh, 50rem);
-    width: 100%;
+    width: fit-content;
     background-color: #EEEEEE;
     font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .background {
-    flex: 1 1 0;
+    flex: 1 1 auto;
     min-width: 300px;
     position: relative;
     background: url(./assets/background.jpg) left/cover no-repeat;
@@ -62,7 +62,7 @@ h1 {
 }
 
 .signup {
-    flex: 2 1 0;
+    flex: 2 1 auto;
     min-width:fit-content;
     align-self: center;
     display: flex;
@@ -82,6 +82,7 @@ h1 {
     background-color: white;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     padding: 16px;
 }
 
@@ -95,6 +96,7 @@ input {
     border: 1px solid #E5E7EB;
     border-radius: 3px;
     font-size: 1rem;
+    width: 200px;
 }
 
 input:invalid {
@@ -116,4 +118,14 @@ input:focus {
 
 legend {
     font-weight: 500;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 8px 32px;
+    border: none;
+    margin: 24px;
 }
