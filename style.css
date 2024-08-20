@@ -22,6 +22,7 @@
 }
 
 body {
+    padding: 0;
     margin: 0;
     display: flex;
     height: clamp(30rem, 100vh, 60rem);
@@ -61,7 +62,7 @@ h1 {
 }
 
 .signup {
-    flex: 2 1 auto;
+    flex: 0 1 auto;
     min-width:fit-content;
     align-self: center;
     display: flex;
