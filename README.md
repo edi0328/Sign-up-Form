@@ -1,4 +1,7 @@
-# Sign-up-Form
-Hi! I made this sign up form to practice the knowledge I have gained from following The Odin Project.
-I got to apply HTML forms, CSS positioning and background properties. 
-Any help would be appreciated asI still have some improvements to make!
+# Sign-up form
+
+A frontend exercise from [The Odin Project](https://www.theodinproject.com/), built to practice HTML forms, CSS layout, and background images.
+
+Open `index.html` in a browser. No build step is required.
+
+This is a static form demo. It does not create accounts or check whether the two password fields match.
